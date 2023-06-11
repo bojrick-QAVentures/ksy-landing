@@ -26,10 +26,9 @@
       <NavLi />
     </NavUl>
   </Navbar>
-</div>
-
-<div class="container overflow-scroll min-h-screen mx-auto px-4 py-24">
-  <slot />
+  <div class="container min-h-screen mx-auto px-4 py-24">
+    <slot />
+  </div>
 </div>
 
 <Footer footerType="socialmedia">
