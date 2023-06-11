@@ -14,13 +14,13 @@
     {
       id: 0,
       name: 'Cosmic timetraveler',
-      imgurl: 'src/images/researching-laboratory.jpg',
+      imgurl: 'static/images/researching-laboratory.jpg',
       attribution: 'cosmic-timetraveler-pYyOZ8q7AII-unsplash.com'
     },
     {
       id: 1,
       name: 'Cristina Gottardi',
-      imgurl: 'src/images/close-up-hand-holding-tube.jpg',
+      imgurl: 'static/images/close-up-hand-holding-tube.jpg',
       attribution: 'cristina-gottardi-CSpjU6hYo_0-unsplash.com'
     }
   ];
