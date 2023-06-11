@@ -30,12 +30,12 @@
   <!--  <h1>Welcome to SvelteKit</h1>-->
 
   <div class="carousel-container mb-5">
-    <Carousel {images} loop {showCaptions} {showThumbs} duration="3000" />
+    <Carousel class = "w-full h-auto" {images} loop {showCaptions} {showThumbs} duration="3000" />
   </div>
 
   <div class="flex flex-wrap bg-[#1da1f2] mb-5">
-    <div class = "w-full md:w-1/2">
-    <Img src="/images/Fragrance Sample.jpg" alt="sample 1" size="max-w-lg" alignment="mx-auto" />
+    <div class = "w-full md:w-1/2 h-auto" >
+    <Img src="/images/Fragrance Sample.jpg" alt="sample 1" size="max-w-lg" alignment="mx-auto"  />
     </div>
     <div class = "w-full md:w-1/2">
     <Heading class="p-8" tag="h2">Who We Are</Heading>
