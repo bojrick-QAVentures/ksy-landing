@@ -7,11 +7,11 @@
   import { DarkMode } from 'flowbite-svelte';
 </script>
 
-<div class="relative px-8">
+<div class="flex flex-wrap relative px-8">
   <Navbar navClass="px-2 sm:px-4 py-2.5 absolute w-full z-20 top-0 left-0 border-b" let:hidden let:toggle>
     <NavBrand href="/">
-      <img src="/images/flowbite-svelte-icon-logo.svg" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo" />
-      <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">KSY</span>
+      <img src="/images/logo.jpeg" class="ml-5 mr-3 h-10 sm:h-15" alt="Transforming raw materials in safe and in timely manner" />
+      <span class="self-center whitespace-nowrap text-2l font-semibold dark:text-white">Group</span>
     </NavBrand>
 
     <div class="flex md:order-2">
@@ -35,25 +35,25 @@
   <div class="md:flex md:justify-between">
     <div class="mb-6 md:mb-0">
       <FooterBrand
-        href="https://flowbite.com"
-        src="/images/flowbite-svelte-icon-logo.svg"
-        alt="Flowbite Logo"
-        name="Flowbite"
+        href="https://ksy-landing.netlify.app/"
+        src="/images/logo.jpeg" class="ml-5 mr-3 h-10 sm:h-15"
+        alt="KSY Logo"
+        name="KSY Group"
       />
     </div>
-    <div class="grid grid-cols-3 gap-8 sm:gap-6 sm:grid-cols-3">
+    <div class="grid grid-cols-6 gap-8 sm:gap-6 sm:grid-cols-6">
       <div>
         <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
         <FooterLinkGroup>
-          <FooterLink liClass="mb-4" href="/">Flowbite</FooterLink>
-          <FooterLink liClass="mb-4" href="/">Tailwind CSS</FooterLink>
+          <FooterLink liClass="mb-4" href="/">Our Philosophy</FooterLink>
+          <FooterLink liClass="mb-4" href="/">Our Story</FooterLink>
         </FooterLinkGroup>
       </div>
       <div>
         <h2 class="mb-6 text-sm font-semibold uppercase text-gray-900 dark:text-white">Follow us</h2>
         <FooterLinkGroup>
-          <FooterLink liClass="mb-4" href="/">GitHub</FooterLink>
-          <FooterLink liClass="mb-4" href="/">Discord</FooterLink>
+          <FooterLink liClass="mb-4" href="/">LinkedIn</FooterLink>
+          <FooterLink liClass="mb-4" href="/">Twitter</FooterLink>
         </FooterLinkGroup>
       </div>
       <div>
@@ -78,7 +78,7 @@
           /></svg
         >
       </FooterIcon>
-      <FooterIcon href="/" class="text-gray-400 hover:text-gray-900">
+      <FooterIcon href="https://www.linkedin.com/company/ksy-trading-co" class="text-gray-400 hover:text-gray-900">
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"
           ><path
             fill-rule="evenodd"
